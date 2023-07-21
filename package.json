@@ -1,0 +1,33 @@
+{
+  "name": "marmot_vue3",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/marmot.umd.cjs",
+  "module": "./dist/marmot.js",
+  "exports": {
+    ".": {
+      "import": "./dist/marmot.js",
+      "require": "./dist/marmot.umd.cjs"
+    },
+    "./style.css": "./dist/style.css",
+    "./styles/global.css": "./dist/styles/global.css"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
+    "rollup-plugin-copy": "^3.4.0",
+    "sass": "^1.64.0",
+    "vite": "^4.4.5"
+  }
+}

@@ -1,0 +1,83 @@
+:root {
+    --main-bg-color: green;
+
+    /* Alert colors */
+    --success300: #61AB80;
+    --warn300: #EAAD2E;
+
+    /* Brand colors */
+    --green: #0097a9;
+    --darkGreen: #006470;
+
+    /* Standard colors */
+    --midDarkGrey: #333333;
+    --darkGrey: #131a29;
+    --midGrey: #353f56;
+
+    /* Standard colors */
+    --white: #fff;
+    --teal100: #ade9e9;
+    --teal300: #87d7dc;
+    --teal900: #004E66;
+    --teal80: #ade9e9ac;
+    --teal90: #B9E7E8;
+    --yellow100: #F1B435;
+    --grey900: #111723;
+    --grey800: #222A39;
+    --grey700: #434D60;
+    --grey600: #5E687C;
+    --grey500: #8D96A9;
+    --grey300: #dcdfe4;
+    --grey200: #F3F4F6;
+    --grey100: #F7F8FA;
+    --blue: #002B49;
+    --blue80: #083572;
+    --blue100: #F1F4F7;
+    --blue800: #083572;
+    --blue500: #4684D9;
+
+    /* UI refresh white backgrounds */
+    --primaryBlack: #111723;
+    --primaryLightNavy: #002B49;
+    --primaryLightBlue1: #15407B;
+    --primaryLightBlue2: #2167C4;
+    --primaryLightGold1: #764F00;
+    --primaryLightGold2: #BC7F00;
+
+    --secondaryLightTeal1: #00694F;
+    --secondaryLightTeal2: #00A87E;
+    --secondaryLightPurple1: #5C286B;
+    --secondaryLightPurple2: #933FAB;
+
+    --tertiaryLightOrange: #D93B11;
+    --tertiaryLightGreen: #238818;
+
+    --errorsLightRed1: #E90C34;
+    --errorsLightRed2: #FF224A;
+
+    --disabledLightGrey: #5E687C;
+
+    /* UI refresh dark backgrounds */
+    --primaryDarkWhite: #FFFFFF;
+    --primaryDarkBlue1: #5593E8;
+    --primaryDarkBlue2: #E6EEF8;
+    --primaryDarkGold1: #F1B435;
+    --primaryDarkGold2: #FFE5AF;
+
+    --secondaryDarkTeal1: #01E6A5;
+    --secondaryDarkTeal2: #D4FFF4;
+    --secondaryDarkPurple1: #E27DFF;
+    --secondaryDarkPurple2: #F2E6F6;
+
+    --tertiaryDarkOrange1: #FF6238;
+    --tertiaryDarkOrange2: #FBCBBE;
+    --tertiaryDarkGreen1: #60CC54;
+    --tertiaryDarkGreen2: #B6F6AF;
+
+    --errorsDarkRed1: errorsLightRed1;
+    --errorsDarkRed2: #FDDFE5;
+
+    --disabledDarkGrey1: #8D96A9;
+    --disabledDarkGrey2: #DCDFE4;
+
+}
